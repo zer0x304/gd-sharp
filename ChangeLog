@@ -1,0 +1,29 @@
+2005-03-01 Mircea-Cristian Racasan <darx_kies@gmx.net>
+	* GD-Import project added.
+
+	* GD APIs moved from GD.cs to GDImport.cs
+
+	* Tests.cs: Testing code changed to support the new NUnit versions
+
+	* Img: directory added (it contains the test pictures and the mono powered logo)
+2005-02-16 Kevin Tam <glorat@gmail.com>
+	* Animated GIF support added
+
+	* Project splitted into 3 subprojects (GD-Demo, GD-Sharp, GD-Test)
+	
+	* GDIntPtr.cs: Added
+
+	* GDColor: Added
+
+	* Visual Studio .NET Project Files added
+2004-05-13 Chris Turchin <chris@turchin.net>
+
+	* GD.cs: Implemented Save(Stream outputstream). Added PInvokes for
+	gdImageJpegPtr etc.
+	Added several new Save() overloads for convenience.
+
+	* GDDemeo.cs: Added several Save() Tests. Probably better in the Tests.cs
+
+	* Tests.cs: Added a new unit test for saving to stream.
+2004-04-13 Mircea-Cristian Racasan <darx_kies@gmx.net>
+	* Initial release
